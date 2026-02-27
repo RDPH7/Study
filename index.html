@@ -1,183 +1,117 @@
-<!doctype html>
-<html lang="hi">
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
-<title>Class 12 Biology Study Plan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study Plan</title>
 
 <style>
-:root{
-  --bg:#f4f9ff;
-  --card:#ffffff;
-  --accent:#2b6cb0;
-  --line:#cbd5e1;
-}
-
 body{
   margin:0;
-  background:var(--bg);
-  font-family:'Noto Sans Devanagari',sans-serif;
+  font-family:Arial, sans-serif;
+  background:#f5f7fa;
+  padding:20px;
 }
 
-.page{
-  width:210mm;
-  min-height:297mm;
-  padding:20mm;
-  margin:auto;
-  box-sizing:border-box;
+h1{
+  font-size:32px;
+  margin-bottom:10px;
 }
 
-.title{
-  text-align:center;
-  font-size:22px;
-  font-weight:700;
-  color:var(--accent);
-  margin-bottom:20px;
+hr{
+  margin-bottom:25px;
 }
 
-.flow{
+.card{
+  background:white;
+  padding:15px;
+  margin-bottom:15px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
   display:flex;
-  flex-direction:column;
-  gap:18px;
-}
-
-.row{
-  display:flex;
-  align-items:center;
   justify-content:space-between;
-  background:var(--card);
-  padding:14px 18px;
-  border-radius:8px;
-  box-shadow:0 2px 6px rgba(0,0,0,0.05);
-  position:relative;
-}
-
-.chapter{
-  font-size:14px;
-  font-weight:600;
+  align-items:center;
 }
 
 .time{
-  font-size:13px;
-  background:var(--accent);
+  background:#2563eb;
   color:white;
-  padding:6px 14px;
+  padding:5px 12px;
   border-radius:20px;
-}
-
-.row::after{
-  content:"";
-  position:absolute;
-  bottom:-18px;
-  left:50%;
-  width:2px;
-  height:18px;
-  background:var(--line);
-  transform:translateX(-50%);
-}
-
-.row:last-child::after{
-  display:none;
-}
-
-.section-title{
-  margin-top:30px;
-  font-weight:700;
-  color:#444;
-  font-size:16px;
-}
-
-@media print{
-  body{background:white;}
+  font-size:14px;
 }
 </style>
-</head>
 
+</head>
 <body>
 
-<div class="page">
+<h1>Study</h1>
+<hr>
 
-<div class="title">Class 12 Biology – Study Flow Plan</div>
-
-<div class="section-title">Unit 1</div>
-
-<div class="flow">
-
-<div class="row">
-  <div class="chapter">Principles of Inheritance & Variation</div>
+<div class="card">
+  <div>Principles of Inheritance & Variation</div>
   <div class="time">15 Days</div>
 </div>
 
-<div class="row">
-  <div class="chapter">Molecular Basis of Inheritance</div>
+<div class="card">
+  <div>Molecular Basis of Inheritance</div>
   <div class="time">15 Days</div>
 </div>
 
-<div class="row">
-  <div class="chapter">Human Reproduction</div>
+<div class="card">
+  <div>Human Reproduction</div>
   <div class="time">7 Days</div>
 </div>
 
-<div class="row">
-  <div class="chapter">Reproductive Health</div>
+<div class="card">
+  <div>Reproductive Health</div>
   <div class="time">5 Days</div>
 </div>
 
-<div class="row">
-  <div class="chapter">Biotechnology: Principles & Processes</div>
+<div class="card">
+  <div>Biotechnology: Principles & Processes</div>
   <div class="time">10 Days</div>
 </div>
 
-<div class="row">
-  <div class="chapter">Biotechnology & Its Applications</div>
+<div class="card">
+  <div>Biotechnology & Its Applications</div>
   <div class="time">7 Days</div>
 </div>
 
-<div class="row">
-  <div class="chapter">Human Health & Disease</div>
+<div class="card">
+  <div>Human Health & Disease</div>
   <div class="time">7 Days</div>
 </div>
 
-</div>
-
-
-<div class="section-title">Unit 2</div>
-
-<div class="flow">
-
-<div class="row">
-  <div class="chapter">Sexual Reproduction in Flowering Plants</div>
+<div class="card">
+  <div>Sexual Reproduction in Flowering Plants</div>
   <div class="time">7 Days</div>
 </div>
 
-<div class="row">
-  <div class="chapter">Reproduction in Organisms</div>
+<div class="card">
+  <div>Reproduction in Organisms</div>
   <div class="time">5 Days</div>
 </div>
 
-<div class="row">
-  <div class="chapter">Evolution</div>
+<div class="card">
+  <div>Evolution</div>
   <div class="time">7 Days</div>
 </div>
 
-<div class="row">
-  <div class="chapter">Organisms & Populations</div>
+<div class="card">
+  <div>Organisms & Populations</div>
   <div class="time">5 Days</div>
 </div>
 
-<div class="row">
-  <div class="chapter">Ecosystem</div>
+<div class="card">
+  <div>Ecosystem</div>
   <div class="time">7 Days</div>
 </div>
 
-<div class="row">
-  <div class="chapter">Biodiversity & Conservation</div>
+<div class="card">
+  <div>Biodiversity & Conservation</div>
   <div class="time">5 Days</div>
 </div>
 
-</div>
-
-</div>
 </body>
 </html>
